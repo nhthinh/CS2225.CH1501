@@ -143,7 +143,7 @@ def inference(net,input):
 def main():
 
     # get the image path list for inference
-    im_list = glob('./imgcolor/*')
+    im_list = glob('./output/*')
     print("Number of images: ",len(im_list))
     # indicate the output directory
     out_dir = './faceout'
