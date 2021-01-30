@@ -143,7 +143,7 @@ def inference(net,input):
 def main():
 
     # get the image path list for inference
-    im_list = glob('./output/*')
+    im_list = glob('./facein/*')
     print("Number of images: ",len(im_list))
     # indicate the output directory
     out_dir = './faceout'
@@ -158,6 +158,7 @@ def main():
     # load u2net_portrait model
     net = U2NET(3,1)
     net.load_state_dict(torch.load(model_dir))
+    print ('loaded model')
     if torch.cuda.is_available():
         net.cuda()
     net.eval()
