@@ -49,7 +49,7 @@ def save_output(image_name,pred,d_dir):
     for i in range(1,len(bbb)):
         imidx = imidx + "." + bbb[i]
 
-    imo.save(d_dir+imidx+'.png')
+    imo.save(d_dir+imidx+'_out.png')
 
 def main():
 
