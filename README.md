@@ -59,8 +59,8 @@ Với đầu vào là 1 ảnh bình thường : </p>
 <br/>
 
 ## UNET Model
-* Không sử dụng fully connected do đó cóthể chấp nhận inputvới kích thước bất kì
-* Padding method giúp phân đoạn hình ảnh hoàntoàn mà không bị hạn chế bởi dung lượng bộ nhớ GPU.
+* Không sử dụng fully connected do đó có thể chấp nhận input với kích thước bất kì
+* Padding method giúp phân đoạn hình ảnh hoàn toàn mà không bị hạn chế bởi dung lượng bộ nhớ GPU.
 
 <img style=""  src="docs\images\Unet_model.png">
 
@@ -84,6 +84,7 @@ Với đầu vào là 1 ảnh bình thường : </p>
 http://saliencydetection.net/duts/download/DUTS-TR.zip
 
 * Data-test: DUT-OMRON có 5168 ảnh có chứa 1 hoặc 2 đối tượng; và ECSSD có 1000 ảnh phức tạp chứa các đối tượng lớn trong ảnh.
+
 http://saliencydetection.net/dut-omron/download/DUT-OMRON-image.zip
 https://www.cse.cuhk.edu.hk/leojia/projects/hsaliency/data/ECSSD/images.zip
 
