@@ -22,6 +22,7 @@ Yêu cầu khi chạy bước 7 (crop face)
 
 <a href="https://colab.research.google.com/drive/1ls3jcpKYQfnautkWTKq26-nWK0nX_eHk?usp=sharing"><img  src="https://colab.research.google.com/assets/colab-badge.svg"></a>
 
+Các bước đã chạy test: https://github.com/nhthinh/CS2225.CH1501/blob/master/PassportMaker_Nhom8.ipynb
 
 ## Giới thiệu
 
