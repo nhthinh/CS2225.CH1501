@@ -19,7 +19,7 @@ Yêu cầu khi chạy bước 7 (crop face)
 - cần upload model  u2net_portrait.pth từ link  https://drive.google.com/file/d/1IG3HdpcRiDoWNookbncQjeaPN28t90yW/view?usp=sharing và bỏ vào thư mục model. Do file này quá lớn nên không upload được vào github
 
 <p align="justify"> Dành cho các bạn không có môi trường GPUs hoặc là các bạn muốn kiểm thử đơn giản thông qua online, bạn có thể thử phiên bản <a href="https://colab.research.google.com/drive/1ls3jcpKYQfnautkWTKq26-nWK0nX_eHk?usp=sharing">Google Colab</a> để tạo ra kết quả dễ dàng.</p>
-Live Demo here in Google colab Link below:
+Live Demo here in Google colab Link 
 <a href="https://colab.research.google.com/drive/1ls3jcpKYQfnautkWTKq26-nWK0nX_eHk?usp=sharing"><img  src="https://colab.research.google.com/assets/colab-badge.svg"></a>
 
 Các bước đã chạy test: https://github.com/nhthinh/CS2225.CH1501/blob/master/PassportMaker_Nhom8.ipynb
